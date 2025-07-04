@@ -93,7 +93,7 @@ The SyMoLo dataset  is open-source.
 
 If you use this dataset, please cite:  
 
-[1]Laiany Suganuma, «Laiany/SyMoLo-dataset: SyMoLo dataset». Zenodo, Jun. 30, 2025. doi: 10.5281/zenodo.15775083.
+[1]Laiany Suganuma, «Laiany/SyMoLo-dataset: SyMoLo_dataset_v1.0». Zenodo, Jul. 04, 2025. doi: 10.5281/zenodo.15806257.
 
 ## Requisities
 
