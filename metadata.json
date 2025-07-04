@@ -1,0 +1,30 @@
+{
+  "name": "Synthetic Dataset for Mobile Robots Localization Algorithms (SyMoLo)",
+  "version": "1.0",
+  "description": "Synthetic dataset generated from realistic simulation of a differential mobile robot, including ground truth, sensor readings, and RGB camera images for development and evaluation of classical and emerging localization algorithms.",
+  "license": "open-source",
+  "authors": ["Laiany Suganuma", "CEDRI-IPB/UNILEON/INESCTEC/FCT"],
+  "date_created": "2025-06-27",
+  "dataset_size": "~23.4 MB",
+  "sampling_rate": "20 Hz",
+  "structure": {
+    "trajectory_clockwise": ["test1_CW", "test2_CW", "test3_CW"],
+    "trajectory_counterclockwise": ["test1_CCW", "test2_CCW", "test3_CCW"],
+    "dataset_description.md": "Markdown file describing the dataset",
+    "metadata.json": "Metadata file"
+  },
+  "sensors": [
+    "3x Time-of-Flight(ToF) distance sensors (front, left, right)",
+    "QTR-8A line sensor (8 channels)",
+    "RGB camera (front mounted)"
+  ],
+   "motors": {
+   "type": "6V DC motors",
+   "quantity": 2,
+   "model": "Generic low-cost 6V DC motor"
+  },
+  "data_format": ["csv", "txt", "jpg","md","json"],
+  "application": "Classical and emerging localization algorithms for mobile robots",
+  "simulator": "SimTwo with Hardware-in-the-Loop (HIL) technique",
+  "language": "en"
+}
